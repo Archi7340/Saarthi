@@ -12,7 +12,7 @@ const authRoutes = require("./routes/auth");
 const sosRoutes = require("./routes/sos");
 const requestRoutes = require("./routes/request");
 const medicineRoutes = require("./routes/medicine");
-const volunteerRoutes = require("./routes/volunteer");
+const volunteerRoutes = require("./routes/Volunteer");
 
 // dotenv.config();
 connectDB();

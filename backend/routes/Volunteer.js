@@ -5,7 +5,7 @@ const {
   toggleAvailability,
   uploadID,
   getProfile,
-} = require("../controllers/volunteer");
+} = require("../controllers/Volunteer");
 const { protect } = require("../middleware/auth");
 const { authorize } = require("../middleware/role");
 const { upload } = require("../config/cloudinary");
